@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D00EF46F7B4A3DB9156207 /* EKFieldMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = A414A73E26CF41DD9FBAB985 /* EKFieldMapping.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		15C978A0AF05450C97CCDC6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D6C7472D6F4AEBBD3693D6 /* Foundation.framework */; };
+		169AA60BCE9A41A2868E74F5 /* EKTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1ABAB586194BCDA9517F7E /* EKTransformer.h */; };
+		262F04D47C2B46A3AAF096E8 /* YTFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCC8E353DD64A0683009D86 /* YTFetcher.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		36A6487298A3448F9D103660 /* NSData+AKRest.h in Headers */ = {isa = PBXBuildFile; fileRef = 138E96AF72C941C0AAB58B52 /* NSData+AKRest.h */; };
+		39FC3FBB44E54AF5AA4DA6B4 /* YTCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E398977D70C491691FA81A3 /* YTCommon.h */; };
+		3CEDBA68AA3D49C8A0D7D4A7 /* Pods-EasyMapping-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D15D166E2104900823273FE /* Pods-EasyMapping-dummy.m */; };
+		3FD0C72E0AA04AECAD5267EF /* YTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD438CE7134E90A7BC3E72 /* YTLoginViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		450948257F5D4582AB46B97A /* EKSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 293EADEC6F7A4C9EAAD74D59 /* EKSerializer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		497B2348557049659473815E /* EKMappingBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 6050BBD30BD14817943BDC30 /* EKMappingBlocks.h */; };
+		4BA01B7EC2284FC8B91960AC /* EKPropertyHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C11B1F22EF3D4118AE074E6C /* EKPropertyHelper.h */; };
+		58D618F7883F41109595EC3A /* YTConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 853FFFAC695643E9BD724FEE /* YTConnector.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6A6DF689A0384390929696DA /* EKTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD65B481E7BD4F5C86D0B3EF /* EKTransformer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		749E1160C1404FAAAE5A2E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D6C7472D6F4AEBBD3693D6 /* Foundation.framework */; };
+		7972B7C678104DC38CC890D2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EA57F316B34D25B6BB0472 /* CoreData.framework */; };
+		7A1E69A7009C444C85D296E9 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2721053CA734F9EA07272F6 /* Pods-dummy.m */; };
+		7C622AFEE0004392A58FCE32 /* YTConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 094F88E3DE064EE9AAFDD9B6 /* YTConnector.h */; };
+		7E54B479012B43F8AB9736FE /* EKObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DDE23DC902E46DEB08BD42C /* EKObjectMapping.h */; };
+		7F22B7583EFC4022BE99C83C /* EKObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 277F31C24BE1419FB5CAF2EE /* EKObjectMapping.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		81EC29B804124F5596169117 /* EKPropertyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2846B23DC99847F38B1DBFC8 /* EKPropertyHelper.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		862BD9B416CA49B58B02BCD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C46A14501284566855A76BE /* UIKit.framework */; };
+		886FFCD251D84D52B00B1ACB /* EKMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 17804B71C93A4C6CA94696D1 /* EKMapper.h */; };
+		8A536F671F9343DC82136276 /* libPods-AKYouTube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E0C192CB9143CAA24D5D14 /* libPods-AKYouTube.a */; };
+		90829EFFD6784BC69148892F /* EKMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1A61D4DCB4932B3CE9DA9 /* EKMapper.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		93D2E1F28A074A3387E9C2BE /* YTCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = FB48845C92894F7A80C26818 /* YTCommon.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		9A1D35D6D80647278A7B2B5E /* libPods-EasyMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B892B5A8796463287E066D6 /* libPods-EasyMapping.a */; };
+		9FD023B3EF5547C3936E4D28 /* EasyMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DFB449290B445A9DB958D2 /* EasyMapping.h */; };
+		A316C62AB7164BC48F6B165B /* YTLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93ADBEF0483747B988E09B69 /* YTLoginViewController.h */; };
+		AC50535F717440758214E3C7 /* EKManagedObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA88EB9AC8D49D3A28751BE /* EKManagedObjectMapping.h */; };
+		B3AC826981F04A5E9C07E511 /* EKManagedObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB4F4E80F0049B7BA544378 /* EKManagedObjectMapping.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		BDCC7C94AA4B4DFF81B1E0CB /* Pods-AKYouTube-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA11574AA8A46DA86EFF88E /* Pods-AKYouTube-dummy.m */; };
+		C72A653850AD42D5B216734A /* EKFieldMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6DCDE2C3FF4F9CAA27085A /* EKFieldMapping.h */; };
+		C96129A54EB4437398C89EBA /* NSData+AKRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 51928FC1B2964AA19CB4A8FE /* NSData+AKRest.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E17C7B20163441BEAE3DE165 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D6C7472D6F4AEBBD3693D6 /* Foundation.framework */; };
+		E7B0458AFC604828BCD92158 /* YTFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBE417FDA6F4E02AE16AE34 /* YTFetcher.h */; };
+		F6FCF112A4E1434A979F9F21 /* EKSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DCC1EAECB074BACBFC86CB5 /* EKSerializer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FD4A26A38204D9685B21531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F0D231AF014735B94EC367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244B613766F042E2ADA9FFE0;
+			remoteInfo = "Pods-EasyMapping";
+		};
+		9707474651CC414882473825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F0D231AF014735B94EC367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43C7E2C22AF405DB6EBA8A9;
+			remoteInfo = "Pods-AKYouTube";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094F88E3DE064EE9AAFDD9B6 /* YTConnector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTConnector.h; path = Classes/YTConnector.h; sourceTree = "<group>"; };
+		11E0C192CB9143CAA24D5D14 /* libPods-AKYouTube.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKYouTube.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		138E96AF72C941C0AAB58B52 /* NSData+AKRest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+AKRest.h"; path = "Classes/NSData+AKRest.h"; sourceTree = "<group>"; };
+		17804B71C93A4C6CA94696D1 /* EKMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKMapper.h; path = EasyMapping/EKMapper.h; sourceTree = "<group>"; };
+		1D15D166E2104900823273FE /* Pods-EasyMapping-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyMapping-dummy.m"; sourceTree = "<group>"; };
+		277F31C24BE1419FB5CAF2EE /* EKObjectMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKObjectMapping.m; path = EasyMapping/EKObjectMapping.m; sourceTree = "<group>"; };
+		2846B23DC99847F38B1DBFC8 /* EKPropertyHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKPropertyHelper.m; path = EasyMapping/EKPropertyHelper.m; sourceTree = "<group>"; };
+		293EADEC6F7A4C9EAAD74D59 /* EKSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKSerializer.m; path = EasyMapping/EKSerializer.m; sourceTree = "<group>"; };
+		2A4494FB016D483E95F73D5A /* Pods-EasyMapping-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyMapping-prefix.pch"; sourceTree = "<group>"; };
+		2C46A14501284566855A76BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2D6DCDE2C3FF4F9CAA27085A /* EKFieldMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKFieldMapping.h; path = EasyMapping/EKFieldMapping.h; sourceTree = "<group>"; };
+		34886452D47741F38A7F2E8B /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		37409BE4FF4F473AA5B6898D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCC1EAECB074BACBFC86CB5 /* EKSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKSerializer.h; path = EasyMapping/EKSerializer.h; sourceTree = "<group>"; };
+		4B892B5A8796463287E066D6 /* libPods-EasyMapping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyMapping.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFD438CE7134E90A7BC3E72 /* YTLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTLoginViewController.m; path = Classes/YTLoginViewController.m; sourceTree = "<group>"; };
+		51928FC1B2964AA19CB4A8FE /* NSData+AKRest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+AKRest.m"; path = "Classes/NSData+AKRest.m"; sourceTree = "<group>"; };
+		5656BDFC8D044D2FA24F3400 /* Pods-AKYouTube-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKYouTube-prefix.pch"; sourceTree = "<group>"; };
+		5DDE23DC902E46DEB08BD42C /* EKObjectMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKObjectMapping.h; path = EasyMapping/EKObjectMapping.h; sourceTree = "<group>"; };
+		6050BBD30BD14817943BDC30 /* EKMappingBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKMappingBlocks.h; path = EasyMapping/EKMappingBlocks.h; sourceTree = "<group>"; };
+		64DFB449290B445A9DB958D2 /* EasyMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EasyMapping.h; path = EasyMapping/EasyMapping.h; sourceTree = "<group>"; };
+		8015FFA3005243ECA8EDDAC5 /* Pods-EasyMapping.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyMapping.xcconfig"; sourceTree = "<group>"; };
+		853FFFAC695643E9BD724FEE /* YTConnector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTConnector.m; path = Classes/YTConnector.m; sourceTree = "<group>"; };
+		8D6A4C11B4DD44A48F697845 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		921DA6549B49430D858D096D /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		924F1735563D497AAEA68A2E /* Pods-EasyMapping-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyMapping-Private.xcconfig"; sourceTree = "<group>"; };
+		93ADBEF0483747B988E09B69 /* YTLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTLoginViewController.h; path = Classes/YTLoginViewController.h; sourceTree = "<group>"; };
+		9C1ABAB586194BCDA9517F7E /* EKTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKTransformer.h; path = EasyMapping/EKTransformer.h; sourceTree = "<group>"; };
+		9E398977D70C491691FA81A3 /* YTCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTCommon.h; path = Classes/YTCommon.h; sourceTree = "<group>"; };
+		A414A73E26CF41DD9FBAB985 /* EKFieldMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKFieldMapping.m; path = EasyMapping/EKFieldMapping.m; sourceTree = "<group>"; };
+		AA734E4AC0AE4E13B9D5D8E2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		AEBE417FDA6F4E02AE16AE34 /* YTFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTFetcher.h; path = Classes/YTFetcher.h; sourceTree = "<group>"; };
+		AFCC8E353DD64A0683009D86 /* YTFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTFetcher.m; path = Classes/YTFetcher.m; sourceTree = "<group>"; };
+		B7E6A3FEB72F4B178265858B /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Resources/Media.xcassets; sourceTree = "<group>"; };
+		C0EA57F316B34D25B6BB0472 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		C11B1F22EF3D4118AE074E6C /* EKPropertyHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKPropertyHelper.h; path = EasyMapping/EKPropertyHelper.h; sourceTree = "<group>"; };
+		C5D6C7472D6F4AEBBD3693D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCB4F4E80F0049B7BA544378 /* EKManagedObjectMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKManagedObjectMapping.m; path = EasyMapping/EKManagedObjectMapping.m; sourceTree = "<group>"; };
+		D012E56965BE464E8A63E38C /* Pods-AKYouTube.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKYouTube.xcconfig"; sourceTree = "<group>"; };
+		D2721053CA734F9EA07272F6 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		DA5D81DC74BC4CD8A3879C69 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DCA88EB9AC8D49D3A28751BE /* EKManagedObjectMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKManagedObjectMapping.h; path = EasyMapping/EKManagedObjectMapping.h; sourceTree = "<group>"; };
+		DD65B481E7BD4F5C86D0B3EF /* EKTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKTransformer.m; path = EasyMapping/EKTransformer.m; sourceTree = "<group>"; };
+		DEE1A61D4DCB4932B3CE9DA9 /* EKMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKMapper.m; path = EasyMapping/EKMapper.m; sourceTree = "<group>"; };
+		E9067CF2818D4651976F79EC /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		FB48845C92894F7A80C26818 /* YTCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTCommon.m; path = Classes/YTCommon.m; sourceTree = "<group>"; };
+		FFA11574AA8A46DA86EFF88E /* Pods-AKYouTube-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKYouTube-dummy.m"; sourceTree = "<group>"; };
+		FFFDE35B75CF4A8284C0FDF5 /* Pods-AKYouTube-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKYouTube-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56BA930A540F425891DED1B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7972B7C678104DC38CC890D2 /* CoreData.framework in Frameworks */,
+				749E1160C1404FAAAE5A2E1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6AB3E774584ED392BDF38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C978A0AF05450C97CCDC6D /* Foundation.framework in Frameworks */,
+				8A536F671F9343DC82136276 /* libPods-AKYouTube.a in Frameworks */,
+				9A1D35D6D80647278A7B2B5E /* libPods-EasyMapping.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9FA69CC8774B40823334F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17C7B20163441BEAE3DE165 /* Foundation.framework in Frameworks */,
+				862BD9B416CA49B58B02BCD9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C68ED338CD41F2A4A62375 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D012E56965BE464E8A63E38C /* Pods-AKYouTube.xcconfig */,
+				FFFDE35B75CF4A8284C0FDF5 /* Pods-AKYouTube-Private.xcconfig */,
+				FFA11574AA8A46DA86EFF88E /* Pods-AKYouTube-dummy.m */,
+				5656BDFC8D044D2FA24F3400 /* Pods-AKYouTube-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		16E31CB407FB4CBF824C73E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B118388644F9FBE5AA9C7 /* EasyMapping */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2777D949F8334DCCB86DA11E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37409BE4FF4F473AA5B6898D /* libPods.a */,
+				11E0C192CB9143CAA24D5D14 /* libPods-AKYouTube.a */,
+				4B892B5A8796463287E066D6 /* libPods-EasyMapping.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300B045520F048599B854189 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC8BC9EF718A4F64B59859F4 /* AKYouTube */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3FD7FBE0BAF241C992704B8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8015FFA3005243ECA8EDDAC5 /* Pods-EasyMapping.xcconfig */,
+				924F1735563D497AAEA68A2E /* Pods-EasyMapping-Private.xcconfig */,
+				1D15D166E2104900823273FE /* Pods-EasyMapping-dummy.m */,
+				2A4494FB016D483E95F73D5A /* Pods-EasyMapping-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		7353D6AF74AC46C5952C9673 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC8C33054A1C43298B4E9F0A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		742BA35A60C34F4D9A6C1D70 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4FBA925531B4B3C801C3816 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		87397357FC164A9AAB7DC8BE = {
+			isa = PBXGroup;
+			children = (
+				DA5D81DC74BC4CD8A3879C69 /* Podfile */,
+				300B045520F048599B854189 /* Development Pods */,
+				7353D6AF74AC46C5952C9673 /* Frameworks */,
+				16E31CB407FB4CBF824C73E0 /* Pods */,
+				2777D949F8334DCCB86DA11E /* Products */,
+				742BA35A60C34F4D9A6C1D70 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		923ED322EABF404ABA89C99C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B7E6A3FEB72F4B178265858B /* Media.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CC8BC9EF718A4F64B59859F4 /* AKYouTube */ = {
+			isa = PBXGroup;
+			children = (
+				138E96AF72C941C0AAB58B52 /* NSData+AKRest.h */,
+				51928FC1B2964AA19CB4A8FE /* NSData+AKRest.m */,
+				9E398977D70C491691FA81A3 /* YTCommon.h */,
+				FB48845C92894F7A80C26818 /* YTCommon.m */,
+				094F88E3DE064EE9AAFDD9B6 /* YTConnector.h */,
+				853FFFAC695643E9BD724FEE /* YTConnector.m */,
+				AEBE417FDA6F4E02AE16AE34 /* YTFetcher.h */,
+				AFCC8E353DD64A0683009D86 /* YTFetcher.m */,
+				93ADBEF0483747B988E09B69 /* YTLoginViewController.h */,
+				4DFD438CE7134E90A7BC3E72 /* YTLoginViewController.m */,
+				923ED322EABF404ABA89C99C /* Resources */,
+				12C68ED338CD41F2A4A62375 /* Support Files */,
+			);
+			name = AKYouTube;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EC8C33054A1C43298B4E9F0A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C0EA57F316B34D25B6BB0472 /* CoreData.framework */,
+				C5D6C7472D6F4AEBBD3693D6 /* Foundation.framework */,
+				2C46A14501284566855A76BE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F4FBA925531B4B3C801C3816 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA734E4AC0AE4E13B9D5D8E2 /* Pods.xcconfig */,
+				921DA6549B49430D858D096D /* Pods-acknowledgements.markdown */,
+				8D6A4C11B4DD44A48F697845 /* Pods-acknowledgements.plist */,
+				D2721053CA734F9EA07272F6 /* Pods-dummy.m */,
+				E9067CF2818D4651976F79EC /* Pods-environment.h */,
+				34886452D47741F38A7F2E8B /* Pods-resources.sh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA3B118388644F9FBE5AA9C7 /* EasyMapping */ = {
+			isa = PBXGroup;
+			children = (
+				2D6DCDE2C3FF4F9CAA27085A /* EKFieldMapping.h */,
+				A414A73E26CF41DD9FBAB985 /* EKFieldMapping.m */,
+				DCA88EB9AC8D49D3A28751BE /* EKManagedObjectMapping.h */,
+				CCB4F4E80F0049B7BA544378 /* EKManagedObjectMapping.m */,
+				17804B71C93A4C6CA94696D1 /* EKMapper.h */,
+				DEE1A61D4DCB4932B3CE9DA9 /* EKMapper.m */,
+				6050BBD30BD14817943BDC30 /* EKMappingBlocks.h */,
+				5DDE23DC902E46DEB08BD42C /* EKObjectMapping.h */,
+				277F31C24BE1419FB5CAF2EE /* EKObjectMapping.m */,
+				C11B1F22EF3D4118AE074E6C /* EKPropertyHelper.h */,
+				2846B23DC99847F38B1DBFC8 /* EKPropertyHelper.m */,
+				3DCC1EAECB074BACBFC86CB5 /* EKSerializer.h */,
+				293EADEC6F7A4C9EAAD74D59 /* EKSerializer.m */,
+				9C1ABAB586194BCDA9517F7E /* EKTransformer.h */,
+				DD65B481E7BD4F5C86D0B3EF /* EKTransformer.m */,
+				64DFB449290B445A9DB958D2 /* EasyMapping.h */,
+				3FD7FBE0BAF241C992704B8A /* Support Files */,
+			);
+			path = EasyMapping;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6A1FA07E0AB041769697C8AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72A653850AD42D5B216734A /* EKFieldMapping.h in Headers */,
+				AC50535F717440758214E3C7 /* EKManagedObjectMapping.h in Headers */,
+				886FFCD251D84D52B00B1ACB /* EKMapper.h in Headers */,
+				497B2348557049659473815E /* EKMappingBlocks.h in Headers */,
+				7E54B479012B43F8AB9736FE /* EKObjectMapping.h in Headers */,
+				4BA01B7EC2284FC8B91960AC /* EKPropertyHelper.h in Headers */,
+				F6FCF112A4E1434A979F9F21 /* EKSerializer.h in Headers */,
+				169AA60BCE9A41A2868E74F5 /* EKTransformer.h in Headers */,
+				9FD023B3EF5547C3936E4D28 /* EasyMapping.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF54837817254F54804226BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A6487298A3448F9D103660 /* NSData+AKRest.h in Headers */,
+				39FC3FBB44E54AF5AA4DA6B4 /* YTCommon.h in Headers */,
+				7C622AFEE0004392A58FCE32 /* YTConnector.h in Headers */,
+				E7B0458AFC604828BCD92158 /* YTFetcher.h in Headers */,
+				A316C62AB7164BC48F6B165B /* YTLoginViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19D8C34704C545F197412C7A /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA73E12C08C43EEA5202BF0 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				1A9287AC1DE646828C2E152C /* Sources */,
+				5F6AB3E774584ED392BDF38E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29C04F3D75FE47FDBA9F4C96 /* PBXTargetDependency */,
+				88C1156EB7C84FD7BB314C7D /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 37409BE4FF4F473AA5B6898D /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		244B613766F042E2ADA9FFE0 /* Pods-EasyMapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E2F27D2B934D8088585D20 /* Build configuration list for PBXNativeTarget "Pods-EasyMapping" */;
+			buildPhases = (
+				10A9477784D5480AB1F2D483 /* Sources */,
+				56BA930A540F425891DED1B6 /* Frameworks */,
+				6A1FA07E0AB041769697C8AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EasyMapping";
+			productName = "Pods-EasyMapping";
+			productReference = 4B892B5A8796463287E066D6 /* libPods-EasyMapping.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A43C7E2C22AF405DB6EBA8A9 /* Pods-AKYouTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E737836A194D4B228445822A /* Build configuration list for PBXNativeTarget "Pods-AKYouTube" */;
+			buildPhases = (
+				ED7E033737B14883870BE1A3 /* Sources */,
+				BC9FA69CC8774B40823334F8 /* Frameworks */,
+				BF54837817254F54804226BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AKYouTube";
+			productName = "Pods-AKYouTube";
+			productReference = 11E0C192CB9143CAA24D5D14 /* libPods-AKYouTube.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1F0D231AF014735B94EC367 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = 4DBBB0B440DB4432ADF31BEC /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87397357FC164A9AAB7DC8BE;
+			productRefGroup = 2777D949F8334DCCB86DA11E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19D8C34704C545F197412C7A /* Pods */,
+				A43C7E2C22AF405DB6EBA8A9 /* Pods-AKYouTube */,
+				244B613766F042E2ADA9FFE0 /* Pods-EasyMapping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A9477784D5480AB1F2D483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D00EF46F7B4A3DB9156207 /* EKFieldMapping.m in Sources */,
+				B3AC826981F04A5E9C07E511 /* EKManagedObjectMapping.m in Sources */,
+				90829EFFD6784BC69148892F /* EKMapper.m in Sources */,
+				7F22B7583EFC4022BE99C83C /* EKObjectMapping.m in Sources */,
+				81EC29B804124F5596169117 /* EKPropertyHelper.m in Sources */,
+				450948257F5D4582AB46B97A /* EKSerializer.m in Sources */,
+				6A6DF689A0384390929696DA /* EKTransformer.m in Sources */,
+				3CEDBA68AA3D49C8A0D7D4A7 /* Pods-EasyMapping-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9287AC1DE646828C2E152C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1E69A7009C444C85D296E9 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7E033737B14883870BE1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96129A54EB4437398C89EBA /* NSData+AKRest.m in Sources */,
+				BDCC7C94AA4B4DFF81B1E0CB /* Pods-AKYouTube-dummy.m in Sources */,
+				93D2E1F28A074A3387E9C2BE /* YTCommon.m in Sources */,
+				58D618F7883F41109595EC3A /* YTConnector.m in Sources */,
+				262F04D47C2B46A3AAF096E8 /* YTFetcher.m in Sources */,
+				3FD0C72E0AA04AECAD5267EF /* YTLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29C04F3D75FE47FDBA9F4C96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43C7E2C22AF405DB6EBA8A9 /* Pods-AKYouTube */;
+			targetProxy = 9707474651CC414882473825 /* PBXContainerItemProxy */;
+		};
+		88C1156EB7C84FD7BB314C7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244B613766F042E2ADA9FFE0 /* Pods-EasyMapping */;
+			targetProxy = 8FD4A26A38204D9685B21531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		083EC797120F45CD9E84D05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924F1735563D497AAEA68A2E /* Pods-EasyMapping-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-EasyMapping-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		35A57316196F46F097FE4FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFDE35B75CF4A8284C0FDF5 /* Pods-AKYouTube-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-AKYouTube-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		66688DE1A8154552AD77CFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		8999EDF7CE9747AB834663DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		955473091EE44E8597BAA82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA734E4AC0AE4E13B9D5D8E2 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C7E3A430C8644A90B02AB803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA734E4AC0AE4E13B9D5D8E2 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA81BB7138064610BA9FF138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924F1735563D497AAEA68A2E /* Pods-EasyMapping-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-EasyMapping-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3BBD022E5E4548861E2CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFDE35B75CF4A8284C0FDF5 /* Pods-AKYouTube-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-AKYouTube-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DBBB0B440DB4432ADF31BEC /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66688DE1A8154552AD77CFE1 /* Debug */,
+				8999EDF7CE9747AB834663DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E2F27D2B934D8088585D20 /* Build configuration list for PBXNativeTarget "Pods-EasyMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083EC797120F45CD9E84D05A /* Debug */,
+				EA81BB7138064610BA9FF138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E737836A194D4B228445822A /* Build configuration list for PBXNativeTarget "Pods-AKYouTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A57316196F46F097FE4FBF /* Debug */,
+				ED3BBD022E5E4548861E2CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA73E12C08C43EEA5202BF0 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955473091EE44E8597BAA82C /* Debug */,
+				C7E3A430C8644A90B02AB803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1F0D231AF014735B94EC367 /* Project object */;
+}
